@@ -12,7 +12,6 @@ var ConfigItemFloat64 = ConfigItem(6)
 var ConfigItemByte = ConfigItem(7)
 var ConfigItemBytes = ConfigItem(8)
 var ConfigItemArray = ConfigItem(9)
-var ConfigItemObject = ConfigItem(11)
 
 var ConfigItemCount = uint8(12)
 
@@ -26,4 +25,3 @@ type ConfigItemFloat64Type float64
 type ConfigItemByteType byte
 type ConfigItemBytesType []byte
 type ConfigItemArrayType []interface{}
-type ConfigItemObjectType map[string]interface{}
