@@ -16,7 +16,7 @@ func TestJSON(t *testing.T) {
 	}
 	t.Log(string(bytes))
 
-	var dumps map[string]interface{}
+	var dumps interface{}
 
 	dumps, err = DefaultSerializer().Unserialize(bytes)
 	if err != nil {

@@ -1,8 +1,8 @@
 package serialize
 
 type Serializable interface {
-	Serialize(map[string]interface{}) ([]byte, error)
-	Unserialize([]byte) (map[string]interface{}, error)
+	Serialize(interface{}) ([]byte, error)
+	Unserialize([]byte) (interface{}, error)
 }
 
 func DefaultSerializer() Serializable {
