@@ -13,11 +13,11 @@ var ConfigItemByte = ConfigItem(7)
 var ConfigItemBytes = ConfigItem(8)
 var ConfigItemArray = ConfigItem(9)
 
-var ConfigItemCount = uint8(12)
+var ConfigItemCount = uint8(10)
 
 type ConfigItemBoolType bool
 type ConfigItemInt32Type int32
-type ConfigItemUint32ItemType uint32
+type ConfigItemUint32Type uint32
 type ConfigItemInt64Type int64
 type ConfigItemUint64Type uint64
 type ConfigItemFloat32Type float32
