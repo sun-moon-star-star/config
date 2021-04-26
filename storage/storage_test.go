@@ -15,7 +15,7 @@ func (s *StorageTest) Init() {
 		FatherID: -1,
 
 		Name:     "root",
-		FullPath: "/",
+		FullPath: "/root",
 
 		CreatedTime: time.Now().UnixNano(),
 		UpdatedTime: time.Now().UnixNano(),
@@ -28,7 +28,6 @@ func (s *StorageTest) Init() {
 }
 
 func (*StorageTest) Create(*Node) error {
-
 	return nil
 }
 

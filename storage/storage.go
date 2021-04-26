@@ -12,8 +12,8 @@ type Node struct {
 	CreatedTime int64 `json:"created_time"` // nano
 	UpdatedTime int64 `json:"updated_time"` // nano
 
-	Type config.ConfigItem `json:"type"`    // last four bits is ConfigItem, first 60 bits no use
-	Meta []byte            `json:"extends"` // user defined data
+	Type config.ConfigItem `json:"type"`
+	Meta []byte            `json:"meta"` // user defined data
 
 	Value interface{} `json:"value"`
 }
